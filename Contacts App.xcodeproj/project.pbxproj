@@ -14,6 +14,9 @@
 		571408931D80FBC000B631CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571408911D80FBC000B631CA /* LaunchScreen.storyboard */; };
 		5714089E1D80FBC000B631CA /* Contacts_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714089D1D80FBC000B631CA /* Contacts_AppTests.swift */; };
 		571408A91D80FBC000B631CA /* Contacts_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571408A81D80FBC000B631CA /* Contacts_AppUITests.swift */; };
+		571408B71D81042000B631CA /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571408B61D81042000B631CA /* ContactsTableViewController.swift */; };
+		571408B91D810E6300B631CA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571408B81D810E6300B631CA /* Contact.swift */; };
+		5781D3671D8125B3001B515F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781D3661D8125B3001B515F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		571408A41D80FBC000B631CA /* Contacts AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contacts AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		571408A81D80FBC000B631CA /* Contacts_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts_AppUITests.swift; sourceTree = "<group>"; };
 		571408AA1D80FBC000B631CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571408B61D81042000B631CA /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		571408B81D810E6300B631CA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5781D3661D8125B3001B515F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				571408881D80FBC000B631CA /* AppDelegate.swift */,
 				5714088A1D80FBC000B631CA /* ViewController.swift */,
 				5714088C1D80FBC000B631CA /* Main.storyboard */,
+				5781D3661D8125B3001B515F /* DetailViewController.swift */,
+				571408B61D81042000B631CA /* ContactsTableViewController.swift */,
+				571408B81D810E6300B631CA /* Contact.swift */,
 				5714088F1D80FBC000B631CA /* Assets.xcassets */,
 				571408911D80FBC000B631CA /* LaunchScreen.storyboard */,
 				571408941D80FBC000B631CA /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571408B91D810E6300B631CA /* Contact.swift in Sources */,
 				5714088B1D80FBC000B631CA /* ViewController.swift in Sources */,
+				5781D3671D8125B3001B515F /* DetailViewController.swift in Sources */,
 				571408891D80FBC000B631CA /* AppDelegate.swift in Sources */,
+				571408B71D81042000B631CA /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				571408AF1D80FBC000B631CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		571408B01D80FBC000B631CA /* Build configuration list for PBXNativeTarget "Contacts AppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				571408B21D80FBC000B631CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		571408B31D80FBC000B631CA /* Build configuration list for PBXNativeTarget "Contacts AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				571408B51D80FBC000B631CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
